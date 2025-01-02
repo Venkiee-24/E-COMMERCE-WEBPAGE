@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Poppins',sans-serif;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 20px;
+    
+}
+.b{
+    display: flex;
+    column-gap: 10px;
+    
+
+}
+.b a{
+    text-decoration: none;
+}
+.f{
+    display: none;
+}
+.e{
+    padding: 10px;
+}
+.g{
+    background-color: #1d232c;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    left: -50%;
+    transition: 2s;
+}
+.j{
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.i a{
+    color: white;
+    text-decoration: none;
+}
+.h {
+   text-align: right;
+  
+}
+.h button{
+    padding: 10px;
+    background-color: none;
+    
+}
+.k{
+    display: flex;
+    margin-left: 30%;
+}
+
+    
+    
+
+.l button{
+    background-color: #1d232c;
+    color: white;
+    padding: 10px;
+    margin-left: 30%;
+    margin-top: 10px;
+
+}
+.o{
+    display: flex;
+    justify-content: space-between;
+}
+.p,.q{
+    margin-top: 10px;
+}
+.r{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    position: relative;
+
+}
+.q p{
+    color: black;
+}
+.s,.t,.w{
+    width: 29%;
+    background-color: silver; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+}
+.s{
+    margin-left: 10px;
+}
+.w{
+    margin-right: 10px;
+}.x{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.x2{
+    position: relative;
+    flex-basis: 20%;
+}
+.x3{
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    padding: 5px;
+}
+.y{
+    margin-left: 15px;
+    padding: 5px;
+    margin-top: 15px;
+}
+.p h3{
+    margin-left: 10px;
+}
+.y1{
+    text-align: center;
+    margin-top: 20px;
+}
+.o1{
+    width: 60%;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid black 3px;
+}
+.mm{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gg{
+    margin-left: 45%;
+    margin-top: 20px;
+}
+.gg button{
+    padding: 10px;
+    background-color: #1d232c;
+    color: white;
+}
+.w2{
+    height: 100%;
+    width: 100%;
+    background-color: #1d232c;
+    margin-top: 10px;
+    position: static;
+    margin-top: 11px;
+    
+    
+}
+.w3{
+    padding: 30px;
+}
+.w3 h3,p{
+    color: white;
+     margin-top: 15px;
+}
+.a1 form{
+    width: 80%;
+    border:solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.a2{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+}
+.a2:focus{
+    outline: none;
+}
+
+.aa{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.a4{
+    text-align: center;
+    flex-basis: 20%;
+}
+.contact-cointainer{
+    background: #1d232c;
+    height: 80%;
+    width: 70%;
+    top: 10px;  
+    left: 15%;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+.list h3{
+    margin-top: 10px;
+}
+.list h4{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.list input{
+    margin-top: 25px;
+    width: 80%;
+    height: 30px;
+
+}
+.list button{
+    display: inline;
+}
+.o{
+    margin-top: 20px;
+    
+    
+    color: white;
+}
+.o button{
+    padding: 5px;
+}
+.rr{
+    position: relative;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px){
+    .f{
+        display: block;
+    }
+   .n{
+    display: none;
+   }
+    
+}
